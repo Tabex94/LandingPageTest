@@ -1,6 +1,7 @@
-*{
+body{
     margin: 0px;
     padding: 0px;
+    width: 1921px;
 }
 nav{
     display: flex;
@@ -151,13 +152,12 @@ nav{
   .textContainer2{
     font-size: 18px;
     color: white;
-    width: 35%;
-    align-self: auto;
+    width: 32%;
     border: 2px blue solid;
   }
 
   .pictureContainer2{
-    width: 35%;
+    width: 32%;
     border: 2px yellow solid;
   }
 
@@ -204,3 +204,38 @@ nav{
     font-size: 32px;
   }
   
+  .section4{
+    width: 995px;
+    margin: 0 auto;
+    border: 2px green solid;
+    padding-bottom: 100px;
+  }
+
+  .subTitle4{
+    padding-top: 40px;
+    font-size: 18px;
+  }
+
+  .sectionContainer4{
+    width: 100%;
+    border: 1px yellow solid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .contentBox4{
+    border: 1px black solid;
+    width: 282px;
+  }
+  
+  .ch4{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .cf4{
+    width: 282px;
+    font-size: 18px;
+  }
