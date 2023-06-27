@@ -2,11 +2,16 @@ body{
     margin: 0px;
     padding: 0px;
     width: 1921px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
     display: flex;
     width: 1921px;
     height: 100px;
+}
+
+a{
+  text-decoration: none;
 }
 
 .navDiv{
@@ -26,9 +31,7 @@ nav{
 #start{
     width: 1921px;
     height: 683px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/startMeeting.jpg);
-    border: 1px solid;
-    border-color: aqua;
+    background-image: url(media/header-banner.png);
 }
 
 .startTitle{
@@ -36,7 +39,8 @@ nav{
     color: white;
     font-size: 42pt;
     font-weight: bolder;
-    width: 780px;
+    width: 820px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .startSubtitle{
@@ -45,7 +49,7 @@ nav{
     color:white;
     font-size: 16pt;
     width: 680px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .startBtn{
@@ -59,28 +63,27 @@ nav{
     border: 2px solid #FFBE00;
     border-radius: 50px;
     padding: 15px 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
   }
   
   .btn:hover {
-    background-color: white;
-    border-color: white;
+    background-color: #ffbf00a8;
+    border-color: #ffbf00a8;
   }
 
   .subSection{
-    color: black;
+    color: #6B6B6B;
     padding-top: 100px;
     padding-bottom: 100px;
     font-size: 20px;
-    border: 2px solid;
-    border-color: blueviolet;
     width: 1921px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .summary{
     margin-bottom: 5px;
     width: 1000px;
-    border: 2px solid;
-    border-color: red;
   }
 
   .section1{
@@ -93,8 +96,9 @@ nav{
   .sectionTitle1{
     width: 100%;
     padding-bottom: 40px;
-    border: 2px red solid;
-    font-size: 34px;
+    font-size: 40px;
+    color:#353535;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .sectionContainer1{
@@ -117,7 +121,7 @@ nav{
 
   .hh2{
     font-size: 20px;
-    color: blue;
+    color:#353535;
 
   }
 
@@ -125,6 +129,7 @@ nav{
     width: 285px;
     align-content: center;
     font-size: 18px;
+    color: #6B6B6B;
   }
 
   .section2{
@@ -137,9 +142,9 @@ nav{
   .sectionTitle2{
     color: #FFBE00;
     font-size: 36px;
-    border: 1px white solid;
     align-content: center;
     padding-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   .sectionContainer2{
@@ -154,6 +159,10 @@ nav{
     color: white;
     width: 32%;
     border: 2px blue solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 130%;
+    padding-right: 80px;
+
   }
 
   .pictureContainer2{
@@ -171,7 +180,9 @@ nav{
   .sectionTitle3{
     width: 100%;
     border: 2px rgb(23, 22, 22) solid;
-    font-size: 34px;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #353535;
   }
 
   .sectionContainer3{
@@ -201,7 +212,9 @@ nav{
   textBox3{
     border: 2px black solid;
     margin: auto;
-    font-size: 32px;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #5E5E5E;
   }
   
   .section4{
@@ -214,6 +227,7 @@ nav{
   .subTitle4{
     padding-top: 40px;
     font-size: 18px;
+    color: #6B6B6B;
   }
 
   .sectionContainer4{
@@ -233,11 +247,13 @@ nav{
     padding-top: 40px;
     padding-bottom: 20px;
     font-size: 22px;
+    color: #6B6B6B;
   }
 
   .cf4{
     width: 282px;
     font-size: 18px;
+    color:#6B6B6B;
   }
 
   .section5{
@@ -252,6 +268,7 @@ nav{
     margin-left: 600px;
     margin-right: 600px;
     padding-bottom: 40px;
+    color: #6B6B6B;
   }
 
   .sectionContainer5{
@@ -259,6 +276,7 @@ nav{
     width: 1440px;
     margin: auto;
     display: flex;
+    color: #6B6B6B;
   }
 
   .pictureContainer5{
@@ -279,6 +297,7 @@ nav{
     padding-left: 600px;
     padding-right: 600px;
     font-size: 18px;
+    color: #6B6B6B;
   }
 
   .pictureContainer5a{
@@ -295,9 +314,12 @@ nav{
 
   .sectionTitle6{
     padding-bottom: 40px;
-    margin-left: 740px;
-    margin-right: 740px;
-    font-size: 38px;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: 40px;
+    color:#353535;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   }
 
   .sectionSubtitle6{
@@ -305,6 +327,7 @@ nav{
     font-size: 18px;
     margin-left: 400px;
     margin-right: 400px;
+    color: #6B6B6B;
   }
 
   .sectionContainer6{
@@ -325,6 +348,7 @@ nav{
   .textContainer6{
     font-size: 18px;
     margin: auto 120px;
+    color: #6B6B6B;
   }
 
   .pictureContainer6a{
