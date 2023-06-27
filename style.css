@@ -8,6 +8,9 @@ nav{
     display: flex;
     width: 1921px;
     height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 a{
@@ -23,9 +26,15 @@ a{
     justify-content: center;
 }
 
-.navLink{
-    font-size: large;
-    font-weight: bolder;
+.navLink1{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #FFBE00;
+}
+.navLink2{
+  margin-left: 20px;
+  font-size: 24px;
+  color: #353535;
 }
 
 #start{
