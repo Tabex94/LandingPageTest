@@ -423,8 +423,10 @@ a{
 
   .finalSection{
     background-image: url(media/imagen-bloque-10.png);
+    background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
+    color:#FFBE00;
   }
 
   .finalTitle{
