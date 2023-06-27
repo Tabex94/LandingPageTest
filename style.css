@@ -239,3 +239,188 @@ nav{
     width: 282px;
     font-size: 18px;
   }
+
+  .section5{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F8F8F8;
+    border: 1px violet solid;
+  }
+
+  .sectionSubtitle5{
+    font-size: 18px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding-bottom: 40px;
+  }
+
+  .sectionContainer5{
+    border:2px orange solid;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+  }
+
+  .pictureContainer5{
+    width: 593px;
+    height: 600px;
+    border: 3px blueviolet solid;
+  }
+
+  .textContainer5{
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 18px;
+  }
+
+  .sectionSubtitle5a{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 600px;
+    padding-right: 600px;
+    font-size: 18px;
+  }
+
+  .pictureContainer5a{
+    width: 590px;
+    height: 484px;
+    border: 3px blueviolet solid;
+    margin-left: 80px;
+  }
+
+  .section6{
+    border: 1px rgb(41, 178, 116) solid;
+    padding-bottom: 100px;
+  }
+
+  .sectionTitle6{
+    padding-bottom: 40px;
+    margin-left: 740px;
+    margin-right: 740px;
+    font-size: 38px;
+  }
+
+  .sectionSubtitle6{
+    padding-bottom: 40px;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+
+  .sectionContainer6{
+    border:2px orange solid;
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    padding-bottom: 100px;
+  }
+
+  .pictureContainer6{
+    width: 590px;
+    height: 400px;
+    margin-left: 80px;
+    border: 3px blueviolet solid;
+  }
+
+  .textContainer6{
+    font-size: 18px;
+    margin: auto 120px;
+  }
+
+  .pictureContainer6a{
+    width: 590px;
+    height: 300px;
+    margin-left: 80px;
+  }
+
+  h6a{
+    font-size: 28px;
+  }
+
+  .pictureContainer6b{
+    width: 593px;
+    height: 300px;
+    margin-left: 100px;
+    padding-left: 100px;
+  }
+
+  .formSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFBE00;
+  }
+
+  .formTitle{
+    padding-bottom: 40px;
+    font-size: 28px;
+    border: 2px red solid;
+    width: 600px;
+  }
+
+  .formFields{
+    width: 600px;
+    border: 2px blueviolet solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .inputSmall{
+    width: 275px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .inputLarge{
+    width: 99%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .loremBtn{
+    padding-top: 20px;
+  }
+
+  .btn2 {
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #353535;
+    border: 2px solid #353535;
+    border-radius: 50px;
+    padding: 15px 45px;
+  }
+  
+  .btn2:hover {
+    background-color: #565555;
+    border-color: #565555;
+  }
+
+  .finalSection{
+    background-image: url(media/imagen-bloque-10.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .finalTitle{
+    font-size: 28px;
+    margin-left: 600px;
+    margin-right: 600px;
+
+  }
+
+  .contactSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .contactContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1000px;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+
+  
